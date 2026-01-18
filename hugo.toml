@@ -9,6 +9,10 @@ enableGitInfo = true
 [pagination]
 pagerSize = 5
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [taxonomies]
 category = "categories"
 tag = "tags"
