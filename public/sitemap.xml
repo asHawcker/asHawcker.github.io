@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/projects/judgeme/journey-d1/</loc>
-    <lastmod>2026-01-13T23:07:42+05:30</lastmod>
+    <lastmod>2026-01-19T00:14:37+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/system-design/</loc>
+    <lastmod>2025-11-26T09:19:23+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/judgeme/journey-d2/</loc>
-    <lastmod>2026-01-14T23:34:21+05:30</lastmod>
+    <lastmod>2026-01-19T00:14:37+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/implementation/</loc>
+    <lastmod>2025-11-26T09:19:23+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/judgeme/journey-d3-deployment/</loc>
-    <lastmod>2026-01-16T23:51:26+05:30</lastmod>
+    <lastmod>2026-01-19T00:14:37+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/manual/</loc>
+    <lastmod>2025-11-26T09:19:23+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/challenges/</loc>
+    <lastmod>2025-11-27T10:31:59+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/projects/</loc>
     <lastmod>2026-01-18T19:43:24+05:30</lastmod>
@@ -32,13 +44,16 @@
     <loc>http://localhost:1313/projects/judgeme/</loc>
     <lastmod>2026-01-18T19:43:24+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-18T19:43:24+05:30</lastmod>
+    <lastmod>2026-01-19T00:14:37+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-01-18T19:43:24+05:30</lastmod>
+    <lastmod>2026-01-19T00:14:37+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/experience/</loc>
     <lastmod>2026-01-18T19:43:24+05:30</lastmod>
