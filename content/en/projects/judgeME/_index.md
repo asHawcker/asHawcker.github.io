@@ -5,14 +5,19 @@ bookcase_cover_src: "cover/nodejs.png"
 bookcase_cover_src_dark: "cover/nodejs-dark.png"
 type: "postcard"
 date: 2026-01-16
+weight: 9800
 ---
 
 # JudgeME!
 
+{{< icon-group gap="14px" >}}
 {{< icon vendor="feather" name="github" link="https://github.com/asHawcker/judge-me" >}}
 {{< icon vendor="feather" name="link" link="https://judgeme-rn65.onrender.com/" >}}
+{{< /icon-group >}}
 
 > "Your stats don't lie, but they do make me laugh."
+
+---
 
 **JudgeME** is a ruthlessly honest AI application that analyzes your public profiles-**GitHub, Chess.com, and LeetCode**-and uses Google's Gemini AI to generate a brutal, personalized roast based on your data.
 

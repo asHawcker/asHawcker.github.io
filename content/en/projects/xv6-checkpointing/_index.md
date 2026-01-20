@@ -1,10 +1,11 @@
 ---
 title: "Process Checkpointing - xv6"
 description: "Modified the xv6 OS to support process checkpointing."
-bookcase_cover_src: "cover/c.png"
-bookcase_cover_src_dark: "cover/c-dark.png"
+bookcase_cover_src: "cover/xv6.png"
+bookcase_cover_src_dark: "cover/xv6-dark.png"
 type: "postcard"
 date: 2025-11-26
+weight: 9900
 ---
 
 # Process Checkpointing and Restoration Mechanism in xv6
