@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/memory-allocator/absolutely-naive/</loc>
+    <lastmod>2026-01-23T15:04:54+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/judgeme/journey-d1/</loc>
     <lastmod>2026-01-19T00:14:37+05:30</lastmod>
   </url><url>
@@ -45,7 +48,7 @@
     <lastmod>2026-01-20T17:05:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-21T20:10:31+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/judgeme/</loc>
     <lastmod>2026-01-20T17:05:21+05:30</lastmod>
