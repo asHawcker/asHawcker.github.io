@@ -800,6 +800,41 @@ overflow the log buffer.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Buddy</title>
+      <link>http://localhost:1313/projects/memory-allocator/buddy/</link>
+      <pubDate>Fri, 30 Jan 2026 22:28:08 +0530</pubDate>
+      
+      <guid>http://localhost:1313/projects/memory-allocator/buddy/</guid>
+      <description>&lt;div class=&#34;content-margin&#34;&gt;
+    &lt;ol class=&#34;breadcrumbs&#34;&gt;
+        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/&#34;&gt;Custom Memory Allocators&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/buddy/&#34;&gt;Buddy&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;buddy-allocator&#34; --&gt;
+
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Buddy Allocator
+  &lt;a href=&#34;#buddy-allocator&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;Previously, I built an Explicit Free List Allocator. It is fast and efficient for general user-space applications (&lt;code&gt;malloc&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;But when we look at the Operating System Kernel, the requirements change. The OS doesn&amp;rsquo;t just need any memory, it often needs physically contiguous memory to interface with hardware. Our Linked List allocator suffered from External Fragmentation, making it unsuitable for the kernel.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Contributions and Learnings - IML</title>
       <link>http://localhost:1313/projects/dsl-for-image-manipulation/contributions/</link>
       <pubDate>Tue, 04 Nov 2025 16:35:15 +0530</pubDate>

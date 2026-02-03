@@ -12,7 +12,7 @@
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/implicit-freelist/</loc>
-    <lastmod>2026-01-25T09:45:19+05:30</lastmod>
+    <lastmod>2026-01-25T10:47:51+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/judgeme/journey-d2/</loc>
     <lastmod>2026-01-19T00:14:37+05:30</lastmod>
@@ -21,7 +21,7 @@
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/explicit-freelist/</loc>
-    <lastmod>2026-01-25T09:45:27+05:30</lastmod>
+    <lastmod>2026-01-25T10:47:51+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/judgeme/journey-d3-deployment/</loc>
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
@@ -49,6 +49,9 @@
   </url><url>
     <loc>http://localhost:1313/about/additional/</loc>
     <lastmod>2026-01-18T19:43:24+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/memory-allocator/buddy/</loc>
+    <lastmod>2026-01-30T22:28:48+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/dsl-for-image-manipulation/contributions/</loc>
     <lastmod>2026-01-20T17:05:21+05:30</lastmod>
