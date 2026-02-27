@@ -519,27 +519,38 @@ xv6 interface files.&lt;/p&gt;
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;usage-manual&#34; --&gt;
 
-&lt;h1&gt;Usage Manual&lt;/h1&gt;
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Usage Manual
+  &lt;a href=&#34;#usage-manual&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
 
 &lt;p&gt;This section provides instructions on how to use the implemented system calls in user-space
 programs.&lt;/p&gt;
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;creating-a-checkpoint&#34; --&gt;
 
-&lt;h2&gt;Creating a Checkpoint&lt;/h2&gt;
+&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;Creating a Checkpoint
+  &lt;a href=&#34;#creating-a-checkpoint&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
 
-&lt;p&gt;Use the &lt;em&gt;checkpoint(int pid, char *filename)&lt;/em&gt; system call.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;pid&lt;/strong&gt;: The Process ID of the target process to save. Use getpid() for self-checkpointing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;filename&lt;/strong&gt;: The name of the file to be created (e.g., ”backup.img”).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Returns&lt;/strong&gt;: 0 on success, -1 on failure.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;restoring-a-process&#34; --&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
 
-&lt;h2&gt;Restoring a Process&lt;/h2&gt;
-
-&lt;p&gt;Use the &lt;em&gt;restart(char *filename)&lt;/em&gt; system call.&lt;/p&gt;</description>
+&lt;p&gt;Use the &lt;em&gt;checkpoint(int pid, char *filename)&lt;/em&gt; system call.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -800,14 +811,14 @@ overflow the log buffer.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Buddy</title>
+      <title>Buddy Allocator</title>
       <link>http://localhost:1313/projects/memory-allocator/buddy/</link>
       <pubDate>Fri, 30 Jan 2026 22:28:08 +0530</pubDate>
       
       <guid>http://localhost:1313/projects/memory-allocator/buddy/</guid>
       <description>&lt;div class=&#34;content-margin&#34;&gt;
     &lt;ol class=&#34;breadcrumbs&#34;&gt;
-        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/&#34;&gt;Custom Memory Allocators&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/buddy/&#34;&gt;Buddy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/&#34;&gt;Custom Memory Allocators&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/buddy/&#34;&gt;Buddy Allocator&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
 &lt;/div&gt;
 
@@ -905,6 +916,75 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;script defer src=&#39;http://localhost:1313/js/emgithub.js?raw_file_url=https%3a%2f%2fcdn.jsdelivr.net%2fgh%2fasHawcker%2fdsl-for-image-manipulation-in-c%40main%2fruntime.h&amp;lang=c&amp;line_begin=12&amp;line_end=37&amp;id=emgithub_1&#39; integrity=&#34;&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;All of the function definitions can be found in &lt;a href=&#34;https://github.com/asHawcker/dsl-for-image-manipulation-in-c/blob/main/runtime.c&#34;&gt;&lt;em&gt;runtime.c&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Slab Allocator</title>
+      <link>http://localhost:1313/projects/memory-allocator/slab/</link>
+      <pubDate>Fri, 27 Feb 2026 22:28:08 +0530</pubDate>
+      
+      <guid>http://localhost:1313/projects/memory-allocator/slab/</guid>
+      <description>&lt;div class=&#34;content-margin&#34;&gt;
+    &lt;ol class=&#34;breadcrumbs&#34;&gt;
+        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/&#34;&gt;Custom Memory Allocators&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/slab/&#34;&gt;Slab Allocator&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;slab-allocator&#34; --&gt;
+
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Slab Allocator
+  &lt;a href=&#34;#slab-allocator&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;The Slab Allocator is the top layer of the kernel&amp;rsquo;s memory management stack. While the Buddy Allocator manages raw 4KB pages, the Slab Allocator acts as a &amp;ldquo;retailer&amp;rdquo;, carving those pages into small, fixed-size objects (like inodes, task structs, or integers) to eliminate internal fragmentation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Memory Allocators - Wrapup</title>
+      <link>http://localhost:1313/projects/memory-allocator/summary/</link>
+      <pubDate>Fri, 27 Feb 2026 22:58:18 +0530</pubDate>
+      
+      <guid>http://localhost:1313/projects/memory-allocator/summary/</guid>
+      <description>&lt;div class=&#34;content-margin&#34;&gt;
+    &lt;ol class=&#34;breadcrumbs&#34;&gt;
+        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/&#34;&gt;Custom Memory Allocators&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/memory-allocator/summary/&#34;&gt;Memory Allocators - Wrapup&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;post-wrapup-thoughts&#34; --&gt;
+
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Post wrapup thoughts
+  &lt;a href=&#34;#post-wrapup-thoughts&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;Phew!! Finally completed this project. It has been quite a journey finding time for the project and completing bit by bit everyday. Finally it has come to an end and what a journey it has been. It taught me so much about memory allocation and so many little things about the underlying systems.
+This is still so far from anything which would work in real life, but atleast I know more about these and will be ready for any upcoming challenges. I got quite late with the blog though but its chill.&lt;/p&gt;</description>
     </item>
     
     <item>
