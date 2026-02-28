@@ -1,6 +1,6 @@
 ---
 date: "2026-01-30T22:28:08+05:30"
-title: "Buddy"
+title: "Buddy Allocator"
 weight: 1000
 toc: true
 toc_position: "right"
