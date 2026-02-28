@@ -276,12 +276,34 @@
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;system-design&#34; --&gt;
 
-&lt;h1&gt;System Design&lt;/h1&gt;
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;System Design
+  &lt;a href=&#34;#system-design&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
 
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;the-checkpoint-image-format&#34; --&gt;
 
-&lt;h2&gt;The checkpoint image format&lt;/h2&gt;
+&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;The checkpoint image format
+  &lt;a href=&#34;#the-checkpoint-image-format&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h2&gt;
 
 &lt;p&gt;The checkpoint-ed process is stored as a binary image file with a specific structure. To ensure
 data integrity, a header containing metadata is written at the beginning of the file, followed by
@@ -410,23 +432,39 @@ Just simple api request to fetch the user data and the gemini API worked the sam
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;implementation-details&#34; --&gt;
 
-&lt;h1&gt;Implementation Details&lt;/h1&gt;
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Implementation Details
+  &lt;a href=&#34;#implementation-details&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
 
 &lt;p&gt;This section details the specific code modifications required to implement the checkpointing
 feature.&lt;/p&gt;
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;system-call-registration&#34; --&gt;
 
-&lt;h2&gt;System Call Registration&lt;/h2&gt;
+&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;System Call Registration
+  &lt;a href=&#34;#system-call-registration&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h2&gt;
 
 &lt;p&gt;To expose the new functionality to user space, new system calls were registered in the standard
-xv6 interface files.&lt;/p&gt;
-&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;header-modifications&#34; --&gt;
-
-&lt;h3&gt;Header Modifications&lt;/h3&gt;
-
-&lt;p&gt;In syscall.h, unique numbers assigned to the new calls:&lt;/p&gt;</description>
+xv6 interface files.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -863,59 +901,21 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;my-contributions&#34; --&gt;
 
-&lt;h2&gt;My contributions&lt;/h2&gt;
+&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;My contributions
+  &lt;a href=&#34;#my-contributions&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h2&gt;
 
 &lt;p&gt;I mainly handled the Image processing part of the entire project wherein I wrote the Image processing functions from scratch in C (except for the canny edge detector).&lt;/p&gt;
-&lt;p&gt;Here is the list of the functions I implemented:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;div id=&#34;emgithub_1&#34; class=&#34;emgithub-container&#34;&gt;
-    &lt;div class=&#34;emgithub-code&#34;&gt;
-        &lt;div class=&#34;emgithub-loading&#34;&gt;
-            &lt;svg role=&#34;status&#34; class=&#34;mr-2 w-8 h-8 text-gray-200 animate-spin fill-gray-600&#34; viewBox=&#34;0 0 100 101&#34; fill=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-                &lt;path d=&#34;M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z&#34; fill=&#34;currentColor&#34;/&gt;
-                &lt;path d=&#34;M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z&#34; fill=&#34;currentFill&#34;/&gt;
-            &lt;/svg&gt;
-        &lt;/div&gt;
-        &lt;pre style=&#34;tab-size: 8&#34; class=&#34;emgithub-pre line-numbers loading&#34; data-start=&#34;12&#34; &gt;&lt;/pre&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;emgithub-toolbar&#34;&gt;
-        &lt;a target=&#34;_blank&#34; href=&#34;https://github.com/asHawcker/dsl-for-image-manipulation-in-c/blob/main/runtime.h#L12-L37&#34;&gt;runtime.h&lt;/a&gt;
-        &lt;a target=&#34;_blank&#34; href=&#34;https://cdn.jsdelivr.net/gh/asHawcker/dsl-for-image-manipulation-in-c@main/runtime.h&#34;&gt;view raw&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script defer src=&#39;http://localhost:1313/js/emgithub.js?raw_file_url=https%3a%2f%2fcdn.jsdelivr.net%2fgh%2fasHawcker%2fdsl-for-image-manipulation-in-c%40main%2fruntime.h&amp;lang=c&amp;line_begin=12&amp;line_end=37&amp;id=emgithub_1&#39; integrity=&#34;&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;All of the function definitions can be found in &lt;a href=&#34;https://github.com/asHawcker/dsl-for-image-manipulation-in-c/blob/main/runtime.c&#34;&gt;&lt;em&gt;runtime.c&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Here is the list of the functions I implemented:&lt;/p&gt;</description>
     </item>
     
     <item>
