@@ -23,11 +23,11 @@ This is a basic functional allocator. There are a few problems, I can directly f
 
 ## malloc() implementation
 
-{{< emgithub target="https://github.com/asHawcker/custom-memory-allocators/blob/main/absolutely-naive-allocator/alloc.c#L30-L61" lang=c tab_size=8 >}}
+{{< emgithub target="https://github.com/asHawcker/custom-memory-allocators/blob/main/1. absolutely-naive-allocator/alloc.c#L30-L61" lang=c tab_size=8 >}}
 
 ## free() implementation
 
-{{< emgithub target="https://github.com/asHawcker/custom-memory-allocators/blob/main/absolutely-naive-allocator/alloc.c#L63-L81" lang=c tab_size=8 >}}
+{{< emgithub target="https://github.com/asHawcker/custom-memory-allocators/blob/main/1. absolutely-naive-allocator/alloc.c#L63-L81" lang=c tab_size=8 >}}
 
 # Conclusion
 
