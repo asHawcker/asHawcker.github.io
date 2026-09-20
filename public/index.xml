@@ -885,57 +885,7 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Hindi (Native), English (Fluent)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Interests:&lt;/strong&gt; Robotics, Poetry&lt;/li&gt;
 &lt;li&gt;I play some Guitar.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-  
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/activity-streak.css&#34;&gt;
-
-  &lt;script defer src=&#34;http://localhost:1313/js/activity-streak.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;activity-streak-0&#34; class=&#34;activity-streak-container&#34; data-activity-streak data-github=&#34;ashawcker&#34; data-codeforces=&#34;hawcker&#34; data-months=&#34;12&#34;&gt;
-  &lt;div class=&#34;activity-streak-header&#34;&gt;
-    &lt;div class=&#34;activity-streak-title-group&#34;&gt;
-      &lt;h3 class=&#34;activity-streak-title&#34;&gt;Activity Grid&lt;/h3&gt;
-      &lt;div class=&#34;activity-streak-badges&#34;&gt;
-        
-        &lt;a href=&#34;https://github.com/ashawcker&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;activity-streak-badge gh-badge&#34;&gt;
-          &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;13&#34; height=&#34;13&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z&#34;/&gt;&lt;/svg&gt;
-          &lt;span&gt;ashawcker&lt;/span&gt;
-        &lt;/a&gt;
-        
-        
-        &lt;a href=&#34;https://codeforces.com/profile/hawcker&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;activity-streak-badge cf-badge&#34;&gt;
-          &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;13&#34; height=&#34;13&#34;&gt;&lt;path fill=&#34;#FFD400&#34; d=&#34;M13.5 1.5a1.5 1.5 0 0 0-1.5 1.5v18a1.5 1.5 0 0 0 3 0V3a1.5 1.5 0 0 0-1.5-1.5z&#34;/&gt;&lt;path fill=&#34;#00579C&#34; d=&#34;M4.5 7.5A1.5 1.5 0 0 0 3 9v12a1.5 1.5 0 0 0 3 0V9a1.5 1.5 0 0 0-1.5-1.5z&#34;/&gt;&lt;path fill=&#34;#ED1B24&#34; d=&#34;M22.5 13.5a1.5 1.5 0 0 0-1.5 1.5v6a1.5 1.5 0 0 0 3 0v-6a1.5 1.5 0 0 0-1.5-1.5z&#34;/&gt;&lt;/svg&gt;
-          &lt;span&gt;hawcker&lt;/span&gt;
-        &lt;/a&gt;
-        
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;activity-streak-actions&#34;&gt;
-      &lt;button type=&#34;button&#34; class=&#34;activity-streak-refresh-btn&#34; title=&#34;Refresh data&#34; aria-label=&#34;Refresh activity data&#34;&gt;
-        &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;14&#34; height=&#34;14&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;polyline points=&#34;23 4 23 10 17 10&#34;&gt;&lt;/polyline&gt;&lt;polyline points=&#34;1 20 1 14 7 14&#34;&gt;&lt;/polyline&gt;&lt;path d=&#34;M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
-      &lt;/button&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;activity-streak-loading&#34;&gt;
-    &lt;svg class=&#34;activity-streak-spinner&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;
-      &lt;circle cx=&#34;12&#34; cy=&#34;12&#34; r=&#34;10&#34; stroke-dasharray=&#34;32&#34; stroke-dashoffset=&#34;12&#34; /&gt;
-    &lt;/svg&gt;
-    &lt;span&gt;Loading streak &amp; activity...&lt;/span&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;activity-streak-error&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
-
-  &lt;div class=&#34;activity-streak-content&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>

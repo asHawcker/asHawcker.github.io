@@ -2,103 +2,103 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ashawcker.github.io/projects/cache-in-c/difference-with-redis/</loc>
+    <loc>http://localhost:1313/projects/cache-in-c/difference-with-redis/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/absolutely-naive/</loc>
-    <lastmod>2026-09-20T22:29:14+05:30</lastmod>
+    <loc>http://localhost:1313/projects/memory-allocator/absolutely-naive/</loc>
+    <lastmod>2026-09-20T23:34:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/judgeme/journey-d1/</loc>
+    <loc>http://localhost:1313/projects/judgeme/journey-d1/</loc>
     <lastmod>2026-01-19T00:14:37+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/xv6-checkpointing/system-design/</loc>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/system-design/</loc>
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/implicit-freelist/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/implicit-freelist/</loc>
     <lastmod>2026-01-25T10:47:51+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/judgeme/journey-d2/</loc>
+    <loc>http://localhost:1313/projects/judgeme/journey-d2/</loc>
     <lastmod>2026-01-19T00:14:37+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/xv6-checkpointing/implementation/</loc>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/implementation/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/explicit-freelist/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/explicit-freelist/</loc>
     <lastmod>2026-01-25T10:47:51+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/judgeme/journey-d3-deployment/</loc>
+    <loc>http://localhost:1313/projects/judgeme/journey-d3-deployment/</loc>
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/xv6-checkpointing/manual/</loc>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/manual/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/xv6-checkpointing/challenges/</loc>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/challenges/</loc>
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/projects/</loc>
+    <loc>http://localhost:1313/about/projects/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/education/</loc>
+    <loc>http://localhost:1313/about/education/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/tech-stack/</loc>
+    <loc>http://localhost:1313/about/tech-stack/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/competitions/</loc>
+    <loc>http://localhost:1313/about/competitions/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/volunteer/</loc>
+    <loc>http://localhost:1313/about/volunteer/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/additional/</loc>
-    <lastmod>2026-09-20T22:29:14+05:30</lastmod>
+    <loc>http://localhost:1313/about/additional/</loc>
+    <lastmod>2026-09-20T23:34:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/buddy/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/buddy/</loc>
     <lastmod>2026-02-28T23:18:25+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/dsl-for-image-manipulation/contributions/</loc>
+    <loc>http://localhost:1313/projects/dsl-for-image-manipulation/contributions/</loc>
     <lastmod>2026-01-20T17:05:21+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/slab/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/slab/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/summary/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/summary/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/cache-in-c/</loc>
+    <loc>http://localhost:1313/projects/cache-in-c/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/thread-pool/</loc>
+    <loc>http://localhost:1313/projects/thread-pool/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/memory-allocator/</loc>
+    <loc>http://localhost:1313/projects/memory-allocator/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/judgeme/</loc>
+    <loc>http://localhost:1313/projects/judgeme/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/xv6-checkpointing/</loc>
+    <loc>http://localhost:1313/projects/xv6-checkpointing/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/dsl-for-image-manipulation/</loc>
+    <loc>http://localhost:1313/projects/dsl-for-image-manipulation/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://ashawcker.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-20T23:34:14+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/posts/</loc>
+    <loc>http://localhost:1313/about/experience/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/about/experience/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
-    <loc>https://ashawcker.github.io/projects/</loc>
-    <lastmod>2026-09-20T22:29:14+05:30</lastmod>
+    <loc>http://localhost:1313/series/</loc>
   </url><url>
-    <loc>https://ashawcker.github.io/series/</loc>
-  </url><url>
-    <loc>https://ashawcker.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
