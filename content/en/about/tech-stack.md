@@ -3,7 +3,7 @@ title: "Tech Stack"
 weight: 30
 ---
 
-- **Programming Languages:**[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,go,js)](https://skillicons.dev)
+- **Programming Languages:** (In order of decreasing proficiency)[![My Skills](https://skillicons.dev/icons?i=c,cpp,python,js,go,rust)](https://skillicons.dev)
 
 - **Frameworks:** Node.js, ExpressJS, React
 - **Databases:** SQL, MongoDB

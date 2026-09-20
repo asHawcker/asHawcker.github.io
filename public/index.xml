@@ -7,6 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Differences with Redis</title>
+      <link>http://localhost:1313/projects/cache-in-c/difference-with-redis/</link>
+      <pubDate>Sat, 28 Feb 2026 15:07:42 +0530</pubDate>
+      
+      <guid>http://localhost:1313/projects/cache-in-c/difference-with-redis/</guid>
+      <description>&lt;div class=&#34;content-margin&#34;&gt;
+    &lt;ol class=&#34;breadcrumbs&#34;&gt;
+        &lt;li&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/cache-in-c/&#34;&gt;LRU Cache in C&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;/&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/projects/cache-in-c/difference-with-redis/&#34;&gt;Differences with Redis&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;differences-with-redis&#34; --&gt;
+
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;Differences with Redis
+  &lt;a href=&#34;#differences-with-redis&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;While my cache uses a lot of the same concepts (is closer to how Memcached works), Redis takes a completely different, almost opposite approach to solving the same problems.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Concurrency and Synchronization&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Absolutely Naive Allocator</title>
       <link>http://localhost:1313/projects/memory-allocator/absolutely-naive/</link>
       <pubDate>Fri, 23 Jan 2026 15:04:54 +0530</pubDate>
@@ -276,12 +313,34 @@
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;system-design&#34; --&gt;
 
-&lt;h1&gt;System Design&lt;/h1&gt;
+&lt;h1 class=&#34;header-anchor-wrapper&#34;&gt;System Design
+  &lt;a href=&#34;#system-design&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h1&gt;
 
 &lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;the-checkpoint-image-format&#34; --&gt;
 
-&lt;h2&gt;The checkpoint image format&lt;/h2&gt;
+&lt;h2 class=&#34;header-anchor-wrapper&#34;&gt;The checkpoint image format
+  &lt;a href=&#34;#the-checkpoint-image-format&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h2&gt;
 
 &lt;p&gt;The checkpoint-ed process is stored as a binary image file with a specific structure. To ensure
 data integrity, a header containing metadata is written at the beginning of the file, followed by
@@ -631,10 +690,10 @@ overflow the log buffer.&lt;/p&gt;</description>
       
       <guid>http://localhost:1313/about/projects/</guid>
       <description>&lt;!-- end-chunk --&gt;
-&lt;!-- begin-chunk data-anchor=&#34;algoviz--algorithm-visualizer&#34; --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;clipboard-history-for-linux&#34; --&gt;
 
-&lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;Algoviz — Algorithm Visualizer&lt;/strong&gt;
-  &lt;a href=&#34;#algoviz--algorithm-visualizer&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;Clipboard History for Linux&lt;/strong&gt;
+  &lt;a href=&#34;#clipboard-history-for-linux&#34; class=&#34;header-anchor-link&#34;&gt;
 &lt;svg
     xmlns=&#34;http://www.w3.org/2000/svg&#34;
     width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
@@ -648,11 +707,11 @@ overflow the log buffer.&lt;/p&gt;</description>
 
 &lt;p&gt;
 
-&lt;div class=&#34;icon-group&#34; style=&#34;gap: 14px;&#34;&gt;
+&lt;div class=&#34;icon-group&#34; style=&#34;gap: 6px;&#34;&gt;
     
 &lt;div class=&#34;icon&#34;&gt;
     
-        &lt;a rel=&#34;noopener&#34; target=&#34;_blank&#34; href=&#34;https://github.com/ashawcker/algoviz&#34; aria-label=&#34;github&#34;&gt;
+        &lt;a rel=&#34;noopener&#34; target=&#34;_blank&#34; href=&#34;https://github.com/asHawcker/clipboard-history-for-linux&#34; aria-label=&#34;github&#34;&gt;
     
         
             
@@ -671,31 +730,10 @@ overflow the log buffer.&lt;/p&gt;</description>
     
 &lt;/div&gt;
 
-&lt;div class=&#34;icon&#34;&gt;
-    
-        &lt;a rel=&#34;noopener&#34; target=&#34;_blank&#34; href=&#34;https://algoviz-721k.onrender.com&#34; aria-label=&#34;link&#34;&gt;
-    
-        
-            
-&lt;svg
-    xmlns=&#34;http://www.w3.org/2000/svg&#34;
-    width=&#34;24px&#34; height=&#34;24px&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
-    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
-    stroke-linejoin=&#34;round&#34;&gt;
-    &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-
-
-        
-    
-        &lt;/a&gt;
-    
-&lt;/div&gt;
-
 
 &lt;/div&gt;
-&lt;em&gt;Aug 2025&lt;/em&gt;&lt;br&gt;
-&lt;strong&gt;Tech Stack:&lt;/strong&gt; React, TailwindCSS, Render&lt;/p&gt;</description>
+&lt;em&gt;Jul 2026&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Tech Stack:&lt;/strong&gt; C, Linux, Debian packaging, systemd, Display Servers&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -721,9 +759,9 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;B.Tech in Computer Science &amp;amp; Engineering&lt;/strong&gt; | Chennai, India&lt;br&gt;
-&lt;em&gt;2023 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Aug 2023 – Jun 2027&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GPA:&lt;/strong&gt; 8.97 / 10.00&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPA:&lt;/strong&gt; 8.95 / 10.00 (post 6 semesters)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;</description>
     </item>
@@ -736,7 +774,7 @@ overflow the log buffer.&lt;/p&gt;</description>
       <guid>http://localhost:1313/about/tech-stack/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Programming Languages:&lt;/strong&gt;&lt;a href=&#34;https://skillicons.dev&#34;&gt;&lt;img src=&#34;https://skillicons.dev/icons?i=python,c,cpp,go,js&#34; alt=&#34;My Skills&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Programming Languages:&lt;/strong&gt; (In order of decreasing proficiency)&lt;a href=&#34;https://skillicons.dev&#34;&gt;&lt;img src=&#34;https://skillicons.dev/icons?i=c,cpp,python,js,go,rust&#34; alt=&#34;My Skills&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Frameworks:&lt;/strong&gt; Node.js, ExpressJS, React&lt;/p&gt;
@@ -761,6 +799,29 @@ overflow the log buffer.&lt;/p&gt;</description>
       
       <guid>http://localhost:1313/about/competitions/</guid>
       <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;aquavision-20-2026&#34; --&gt;
+
+&lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;AqUaVision 2.0 2026&lt;/strong&gt;
+  &lt;a href=&#34;#aquavision-20-2026&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;IEEE-OES IIT-Madras Chapter&lt;/strong&gt;
+| &lt;em&gt;Feb 2026&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Led the software team and secured both &lt;strong&gt;1st and 2nd place nationally&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Presented and Secured the &lt;strong&gt;Best Poster Presentation&lt;/strong&gt; at the event.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;singapore-auv-challenge-2025&#34; --&gt;
 
 &lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;Singapore AUV Challenge 2025&lt;/strong&gt;
@@ -777,12 +838,7 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;IEEE-OES Singapore Chapter&lt;/strong&gt;
-| &lt;em&gt;March 2025&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Secured &lt;strong&gt;5th place globally&lt;/strong&gt; among &lt;strong&gt;41 on-site teams&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Developed vision-based autonomy for the AUV &lt;strong&gt;Marco&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;</description>
+| &lt;em&gt;March 2025&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -807,8 +863,13 @@ overflow the log buffer.&lt;/p&gt;</description>
 &lt;/a&gt;
 &lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Club Core Member &amp;amp; Ex-Coordinator&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;Aug 2024 – Present&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Club Core (Lead)&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Jul 2025 – Jul 2026&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organised 5+ events in a year ranging from debates to Moot Courts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Club Coordinator&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Aug 2024 – Jul 2025&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Led club events and contributed to creative writing initiatives on campus.&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -823,6 +884,7 @@ overflow the log buffer.&lt;/p&gt;</description>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Hindi (Native), English (Fluent)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Interests:&lt;/strong&gt; Robotics, Poetry&lt;/li&gt;
+&lt;li&gt;I play some Guitar.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -972,6 +1034,30 @@ This is still so far from anything which would work in real life, but atleast I 
       
       <guid>http://localhost:1313/about/experience/</guid>
       <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;accenture&#34; --&gt;
+
+&lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;Accenture&lt;/strong&gt;
+  &lt;a href=&#34;#accenture&#34; class=&#34;header-anchor-link&#34;&gt;
+&lt;svg
+    xmlns=&#34;http://www.w3.org/2000/svg&#34;
+    width=&#34;1rem&#34; height=&#34;1rem&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34;
+    stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34;
+    stroke-linejoin=&#34;round&#34;&gt;
+    &lt;line x1=&#34;4&#34; y1=&#34;9&#34; x2=&#34;20&#34; y2=&#34;9&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;4&#34; y1=&#34;15&#34; x2=&#34;20&#34; y2=&#34;15&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;10&#34; y1=&#34;3&#34; x2=&#34;8&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;16&#34; y1=&#34;3&#34; x2=&#34;14&#34; y2=&#34;21&#34;&gt;&lt;/line&gt;
+&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Associate Software Engineer Intern&lt;/strong&gt; | Pune, India&lt;br&gt;
+&lt;em&gt;May 2026 - Jul 2026&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with &lt;strong&gt;Active Directory&lt;/strong&gt; and &lt;strong&gt;Group Policy Objects (GPOs)&lt;/strong&gt; to understand user lifecycle management, authentication and authorization.&lt;/li&gt;
+&lt;li&gt;Building hands-on expertise in &lt;strong&gt;Privileged Access Management (PAM)&lt;/strong&gt; using &lt;strong&gt;CyberArk (now Idira)&lt;/strong&gt;, including privileged account onboarding, credential vaulting and secure access workflows.&lt;/li&gt;
+&lt;li&gt;Gaining practical exposure to enterprise cybersecurity concepts including identity governance, least privilege and &lt;strong&gt;Role-Based Access Control (RBAC)&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;!-- end-chunk --&gt;
 &lt;!-- begin-chunk data-anchor=&#34;auv-society--iiitdm&#34; --&gt;
 
 &lt;h3 class=&#34;header-anchor-wrapper&#34;&gt;&lt;strong&gt;AUV Society – IIITDM&lt;/strong&gt;
@@ -987,14 +1073,8 @@ This is still so far from anything which would work in real life, but atleast I 
 &lt;/a&gt;
 &lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Software Engineer (Subsystem Lead)&lt;/strong&gt; | Chennai, India&lt;br&gt;
-&lt;em&gt;Jun 2024 – Present&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Trained and fine-tuned &lt;strong&gt;YOLO&lt;/strong&gt; models for real-time gate detection.&lt;/li&gt;
-&lt;li&gt;Designed adaptive control systems and &lt;strong&gt;state-machine-based multithreaded Python&lt;/strong&gt; code for AUV navigation.&lt;/li&gt;
-&lt;li&gt;Integrated &lt;strong&gt;OAK-D camera with ROS&lt;/strong&gt; for real-time object tracking, improving system reliability and FPS from &lt;strong&gt;12 → 18&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;</description>
+&lt;p&gt;&lt;strong&gt;Software Subsystem Lead&lt;/strong&gt; | Chennai, India&lt;br&gt;
+&lt;em&gt;May 2025 - May 2026&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,8 +6,8 @@ weight: 20
 ### **Indian Institute of Information Technology, Design and Manufacturing, Kanchipuram**
 
 **B.Tech in Computer Science & Engineering** | Chennai, India  
-_2023 – Present_
+_Aug 2023 – Jun 2027_
 
-- **GPA:** 8.97 / 10.00
+- **GPA:** 8.95 / 10.00 (post 6 semesters)
 
 ---

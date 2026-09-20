@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/cache-in-c/difference-with-redis/</loc>
+    <lastmod>2026-05-15T15:52:08+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/absolutely-naive/</loc>
     <lastmod>2026-01-23T15:28:31+05:30</lastmod>
   </url><url>
@@ -63,7 +66,7 @@
     <lastmod>2026-02-27T23:17:44+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cache-in-c/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-08T23:11:27+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/thread-pool/</loc>
     <lastmod>2026-02-28T23:41:29+05:30</lastmod>
