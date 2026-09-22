@@ -44,7 +44,7 @@ $ clipboard clear
 
 After the first round of design, the system looked like this:
 
-<img src="/images/cliphistory/workflow.svg" style="height: 90vh; width: auto;" />
+<img src="/images/cliphistory/workflow.png" style="height: 90vh; width: auto;" />
 
 Here, `rofi` is a quick simple gui pop-up tool that I used to spawn a pop-up to select the text from the history that needs to be pasted.
 
