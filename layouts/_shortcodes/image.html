@@ -1,0 +1,35 @@
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $dark_src := .Get "dark_src" }}
+{{ $alt := .Get "alt" | default (.Get "caption") | default (.Get 1) | default "image" }}
+{{ $caption := .Get "caption" | default (.Get "title") | default (.Get 1) }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $max_width := .Get "max_width" | default "100%" }}
+{{ $align := .Get "align" | default "center" }}
+{{ $rounded := .Get "rounded" | default "true" }}
+{{ $border := .Get "border" | default "false" }}
+{{ $shadow := .Get "shadow" | default "true" }}
+{{ $zoom := .Get "zoom" | default "true" }}
+{{ $link := .Get "link" }}
+
+{{ if not (.Page.Store.Get "has_image_shortcode") }}
+  {{ .Page.Store.Set "has_image_shortcode" true }}
+  {{ $css := resources.Get "css/image.css" }}
+  {{- if hugo.IsProduction -}}
+    {{ $css = $css | resources.Minify | resources.Fingerprint "sha256" -}}
+  {{- end -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" {{- if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{- end -}}>
+{{ end }}
+
+<figure class="mc-image-figure align-{{ $align }}{{ if eq $shadow "true" }} has-shadow{{ end }}{{ if eq $border "true" }} has-border{{ end }}{{ if eq $rounded "true" }} is-rounded{{ end }}" style="max-width: {{ $max_width }}; width: {{ $width }};">
+  {{ if $link }}<a href="{{ $link }}" target="_blank" rel="noopener noreferrer" class="mc-image-link">{{ end }}
+  {{ if $dark_src }}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="mc-image mc-img-light" loading="lazy" {{ if ne $zoom "true" }}data-action="none"{{ end }} />
+    <img src="{{ $dark_src | relURL }}" alt="{{ $alt }}" class="mc-image mc-img-dark" loading="lazy" {{ if ne $zoom "true" }}data-action="none"{{ end }} />
+  {{ else if $src }}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="mc-image" loading="lazy" {{ if ne $zoom "true" }}data-action="none"{{ end }} />
+  {{ end }}
+  {{ if $link }}</a>{{ end }}
+  {{ if $caption }}
+    <figcaption class="mc-image-caption">{{ $caption }}</figcaption>
+  {{ end }}
+</figure>

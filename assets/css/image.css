@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Image Shortcode Styles (hugo-theme-monochrome)
+   ========================================================================== */
+
+.mc-image-figure {
+  margin: 1.75rem auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+.mc-image-figure.align-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.mc-image-figure.align-left {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.mc-image-figure.align-right {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
+
+.mc-image-link {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+  border: none;
+}
+
+.mc-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.mc-image-figure.is-rounded .mc-image {
+  border-radius: 0.375rem;
+}
+
+.mc-image-figure.has-shadow .mc-image {
+  box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+}
+
+html[data-theme="dark"] .mc-image-figure.has-shadow .mc-image {
+  box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.4);
+}
+
+.mc-image-figure.has-border .mc-image {
+  border: 1px solid var(--color-border, #e5e5e5);
+}
+
+html[data-theme="dark"] .mc-image-figure.has-border .mc-image {
+  border-color: var(--color-border, #404040);
+}
+
+/* Light / Dark Mode image swapping */
+html[data-theme="dark"] .mc-image-figure .mc-img-light {
+  display: none !important;
+}
+
+html[data-theme="light"] .mc-image-figure .mc-img-dark {
+  display: none !important;
+}
+
+.mc-image-caption {
+  margin-top: 0.55rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--color-text-secondary, #737373);
+  text-align: center;
+  line-height: 1.4;
+}
+
+html[data-theme="dark"] .mc-image-caption {
+  color: var(--color-text-secondary, #8b8b8b);
+}

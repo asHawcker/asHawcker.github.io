@@ -1,0 +1,49 @@
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $dark_src := .Get "dark_src" }}
+{{ $caption := .Get "caption" | default (.Get "title") | default (.Get 1) }}
+{{ $alt := .Get "alt" | default $caption | default "carousel item" }}
+{{ $poster := .Get "poster" }}
+{{ $autoplay := .Get "autoplay" | default "false" }}
+{{ $loop := .Get "loop" | default "true" }}
+{{ $muted := .Get "muted" | default "true" }}
+
+{{ $type := .Get "type" }}
+{{ if not $type }}
+  {{ if and $src (or (strings.HasSuffix $src ".mp4") (strings.HasSuffix $src ".webm") (strings.HasSuffix $src ".ogg")) }}
+    {{ $type = "video" }}
+  {{ else if and $src (or (strings.Contains $src "youtube.com") (strings.Contains $src "youtu.be") (strings.Contains $src "vimeo.com")) }}
+    {{ $type = "youtube" }}
+  {{ else if $src }}
+    {{ $type = "image" }}
+  {{ else }}
+    {{ $type = "custom" }}
+  {{ end }}
+{{ end }}
+
+<div class="mc-carousel-item" data-type="{{ $type }}" data-caption="{{ $caption }}" data-alt="{{ $alt }}">
+  {{ if eq $type "video" }}
+    <video class="mc-carousel-video" controls preload="metadata" {{ if $poster }}poster="{{ $poster | relURL }}"{{ end }} {{ if eq $autoplay "true" }}autoplay muted loop playsinline{{ end }}>
+      <source src="{{ $src | relURL }}" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  {{ else if eq $type "youtube" }}
+    {{ $embed_url := $src }}
+    {{ if strings.Contains $src "watch?v=" }}
+      {{ $embed_url = replace $src "watch?v=" "embed/" }}
+    {{ else if strings.Contains $src "youtu.be/" }}
+      {{ $embed_url = replace $src "youtu.be/" "youtube.com/embed/" }}
+    {{ end }}
+    <iframe class="mc-carousel-iframe" src="{{ $embed_url }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {{ else if eq $type "image" }}
+    {{ if $dark_src }}
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="mc-carousel-img mc-img-light" loading="lazy" />
+      <img src="{{ $dark_src | relURL }}" alt="{{ $alt }}" class="mc-carousel-img mc-img-dark" loading="lazy" />
+    {{ else if $src }}
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="mc-carousel-img" loading="lazy" />
+    {{ end }}
+  {{ else }}
+    <div class="mc-carousel-custom">
+      {{ .Inner | .Page.RenderString }}
+    </div>
+  {{ end }}
+</div>

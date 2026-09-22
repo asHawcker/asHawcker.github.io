@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/clipboard-history-for-linux/x11-ownership/</loc>
+    <lastmod>2026-09-22T19:14:59+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/cache-in-c/difference-with-redis/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>http://localhost:1313/projects/xv6-checkpointing/system-design/</loc>
     <lastmod>2026-01-19T11:51:20+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/clipboard-history-for-linux/ipc-and-kernel-input/</loc>
+    <lastmod>2026-09-22T20:10:23+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/implicit-freelist/</loc>
     <lastmod>2026-01-25T10:47:51+05:30</lastmod>
@@ -51,7 +57,7 @@
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/additional/</loc>
-    <lastmod>2026-09-20T23:34:14+05:30</lastmod>
+    <lastmod>2026-09-20T23:37:48+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/buddy/</loc>
     <lastmod>2026-02-28T23:18:25+05:30</lastmod>
@@ -64,6 +70,9 @@
   </url><url>
     <loc>http://localhost:1313/projects/memory-allocator/summary/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/clipboard-history-for-linux/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cache-in-c/</loc>
     <lastmod>2026-09-20T22:29:14+05:30</lastmod>

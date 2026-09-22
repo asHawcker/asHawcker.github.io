@@ -1,0 +1,42 @@
+{{ $title := .Get "title" | default (.Get "summary") | default (.Get 0) | default "Click to expand" }}
+{{ $open := .Get "open" | default "false" }}
+{{ $type := .Get "type" | default (.Get "variant") | default "default" }}
+{{ $icon := .Get "icon" }}
+
+{{ if not $icon }}
+  {{ if eq $type "hint" }}
+    {{ $icon = "💡" }}
+  {{ else if eq $type "solution" }}
+    {{ $icon = "💻" }}
+  {{ else if eq $type "info" }}
+    {{ $icon = "ℹ️" }}
+  {{ else if eq $type "warning" }}
+    {{ $icon = "⚠️" }}
+  {{ end }}
+{{ end }}
+
+{{ if not (.Page.Store.Get "has_spoiler_shortcode") }}
+  {{ .Page.Store.Set "has_spoiler_shortcode" true }}
+  {{ $css := resources.Get "css/spoiler.css" }}
+  {{- if hugo.IsProduction -}}
+    {{ $css = $css | resources.Minify | resources.Fingerprint "sha256" -}}
+  {{- end -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" {{- if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{- end -}}>
+{{ end }}
+
+<details class="mc-spoiler variant-{{ $type }}" {{ if eq $open "true" }}open{{ end }}>
+  <summary class="mc-spoiler-summary">
+    <span class="mc-spoiler-title-group">
+      {{ if $icon }}<span class="mc-spoiler-icon">{{ $icon }}</span>{{ end }}
+      <span class="mc-spoiler-title">{{ $title }}</span>
+    </span>
+    <span class="mc-spoiler-chevron">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </span>
+  </summary>
+  <div class="mc-spoiler-content">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</details>

@@ -5,4 +5,4 @@ type: "postcard"
 
 # Recent Posts
 
-{{< recent-posts sortby="publishDate" limit=10 >}}
+{{< recent-posts sortby="publishDate" limit=15 >}}

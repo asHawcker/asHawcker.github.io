@@ -1,0 +1,252 @@
+/* ==========================================================================
+   Carousel Shortcode Styles (hugo-theme-monochrome)
+   ========================================================================== */
+
+.mc-carousel-container {
+  position: relative;
+  margin: 2rem 0;
+  background-color: var(--color-background-card, #ffffff);
+  border: 1px solid var(--color-border, #e5e5e5);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  user-select: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+html[data-theme="dark"] .mc-carousel-container {
+  background-color: var(--color-background-card, #262626);
+  border-color: var(--color-border, #404040);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Viewport & Slide Window */
+.mc-carousel-viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Aspect Ratio Modifiers */
+.mc-carousel-viewport.ratio-16-9 { aspect-ratio: 16 / 9; }
+.mc-carousel-viewport.ratio-4-3 { aspect-ratio: 4 / 3; }
+.mc-carousel-viewport.ratio-1-1 { aspect-ratio: 1 / 1; }
+.mc-carousel-viewport.ratio-21-9 { aspect-ratio: 21 / 9; }
+.mc-carousel-viewport.ratio-auto { min-height: 320px; }
+
+/* Track containing all items */
+.mc-carousel-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Individual Slides */
+.mc-carousel-item {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Images in Carousel */
+.mc-carousel-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+/* Dark mode image swapping inside carousel */
+html[data-theme="dark"] .mc-carousel-item .mc-img-light {
+  display: none !important;
+}
+
+html[data-theme="light"] .mc-carousel-item .mc-img-dark {
+  display: none !important;
+}
+
+/* Videos in Carousel */
+.mc-carousel-video {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background: #000;
+  outline: none;
+}
+
+/* IFrames (YouTube / Vimeo) */
+.mc-carousel-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Custom Markdown Content Slide */
+.mc-carousel-custom {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  color: var(--color-text, #171717);
+  background: var(--color-background-card, #ffffff);
+}
+
+html[data-theme="dark"] .mc-carousel-custom {
+  color: var(--color-text, #ededed);
+  background: var(--color-background-card, #262626);
+}
+
+/* Navigation Arrows */
+.mc-carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  color: #171717;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+  padding: 0;
+}
+
+html[data-theme="dark"] .mc-carousel-arrow {
+  background: rgba(38, 38, 38, 0.85);
+  color: #ededed;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.mc-carousel-arrow:hover {
+  background: #ffffff;
+  color: #000000;
+  transform: translateY(-50%) scale(1.08);
+}
+
+html[data-theme="dark"] .mc-carousel-arrow:hover {
+  background: #333333;
+  color: #ffffff;
+}
+
+.mc-carousel-arrow svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  stroke: currentColor;
+}
+
+.mc-carousel-prev {
+  left: 0.75rem;
+}
+
+.mc-carousel-next {
+  right: 0.75rem;
+}
+
+/* Counter Badge (e.g. 1 / 4) */
+.mc-carousel-counter {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.05em;
+}
+
+/* Bottom Bar: Caption and Dots */
+.mc-carousel-bottom {
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-background-card, #ffffff);
+  border-top: 1px solid var(--color-border, #e5e5e5);
+}
+
+html[data-theme="dark"] .mc-carousel-bottom {
+  background-color: var(--color-background-card, #262626);
+  border-top-color: var(--color-border, #404040);
+}
+
+.mc-carousel-caption {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary, #525252);
+  text-align: center;
+  min-height: 1.1rem;
+  line-height: 1.4;
+  margin: 0;
+  transition: opacity 0.2s ease;
+}
+
+html[data-theme="dark"] .mc-carousel-caption {
+  color: var(--color-text-secondary, #a3a3a3);
+}
+
+/* Dot Indicators */
+.mc-carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.mc-carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-border, #d4d4d4);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+html[data-theme="dark"] .mc-carousel-dot {
+  background-color: var(--color-border, #525252);
+}
+
+.mc-carousel-dot:hover {
+  background-color: var(--color-text-secondary, #737373);
+}
+
+.mc-carousel-dot.active {
+  width: 22px;
+  border-radius: 9999px;
+  background-color: var(--color-text, #171717);
+}
+
+html[data-theme="dark"] .mc-carousel-dot.active {
+  background-color: var(--color-text, #ededed);
+}

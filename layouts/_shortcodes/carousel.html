@@ -1,0 +1,54 @@
+{{ $aspect_ratio := .Get "aspect_ratio" | default "16/9" }}
+{{ $autoplay := .Get "autoplay" | default "false" }}
+{{ $interval := .Get "interval" | default "5000" }}
+{{ $show_arrows := .Get "show_arrows" | default "true" }}
+{{ $show_dots := .Get "show_dots" | default "true" }}
+{{ $show_counter := .Get "show_counter" | default "true" }}
+{{ $id := .Get "id" | default (printf "carousel-%d" .Ordinal) }}
+
+{{ $ratio_class := printf "ratio-%s" (replace $aspect_ratio "/" "-") }}
+
+{{ if not (.Page.Store.Get "has_carousel_shortcode") }}
+  {{ .Page.Store.Set "has_carousel_shortcode" true }}
+  {{ $css := resources.Get "css/carousel.css" }}
+  {{- if hugo.IsProduction -}}
+    {{ $css = $css | resources.Minify | resources.Fingerprint "sha256" -}}
+  {{- end -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" {{- if hugo.IsProduction }} integrity="{{ $css.Data.Integrity }}"{{- end -}}>
+
+  {{ $js := resources.Get "js/carousel.js" }}
+  {{- if hugo.IsProduction -}}
+    {{ $js = $js | js.Build (dict "minify" true) | resources.Fingerprint "sha256" -}}
+  {{- else -}}
+    {{ $js = $js | js.Build -}}
+  {{- end -}}
+  <script defer src="{{ $js.RelPermalink }}" {{- if hugo.IsProduction }} integrity="{{ $js.Data.Integrity }}"{{- end -}}></script>
+{{ end }}
+
+<div id="{{ $id }}" class="mc-carousel-container" data-autoplay="{{ $autoplay }}" data-interval="{{ $interval }}" tabindex="0" role="region" aria-label="Media Carousel">
+  <div class="mc-carousel-viewport {{ $ratio_class }}">
+    {{ if eq $show_counter "true" }}
+      <span class="mc-carousel-counter">1 / 1</span>
+    {{ end }}
+
+    {{ if eq $show_arrows "true" }}
+      <button type="button" class="mc-carousel-arrow mc-carousel-prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <button type="button" class="mc-carousel-arrow mc-carousel-next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    {{ end }}
+
+    <div class="mc-carousel-track">
+      {{ .Inner }}
+    </div>
+  </div>
+
+  <div class="mc-carousel-bottom">
+    {{ if eq $show_dots "true" }}
+      <div class="mc-carousel-dots"></div>
+    {{ end }}
+    <p class="mc-carousel-caption"></p>
+  </div>
+</div>

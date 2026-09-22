@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Spoiler / Accordion Shortcode Styles (hugo-theme-monochrome)
+   ========================================================================== */
+
+.mc-spoiler {
+  margin: 1.5rem 0;
+  border: 1px solid var(--color-border, #e5e5e5);
+  border-radius: 0.375rem;
+  background-color: var(--color-background-card, #ffffff);
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+html[data-theme="dark"] .mc-spoiler {
+  background-color: var(--color-background-card, #262626);
+  border-color: var(--color-border, #404040);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Variant Accents */
+.mc-spoiler.variant-hint {
+  border-left: 3px solid #f59e0b;
+}
+
+.mc-spoiler.variant-solution {
+  border-left: 3px solid #10b981;
+}
+
+.mc-spoiler.variant-info {
+  border-left: 3px solid #3b82f6;
+}
+
+.mc-spoiler.variant-warning {
+  border-left: 3px solid #ef4444;
+}
+
+/* Summary Header */
+.mc-spoiler-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text, #171717);
+  background-color: var(--color-background-hover, #f9fafb);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+html[data-theme="dark"] .mc-spoiler-summary {
+  color: var(--color-text, #ededed);
+  background-color: var(--color-background-hover, #2d2d2d);
+}
+
+.mc-spoiler-summary::-webkit-details-marker {
+  display: none;
+}
+
+.mc-spoiler-summary:hover {
+  background-color: var(--color-background-overlay, #f3f4f6);
+}
+
+html[data-theme="dark"] .mc-spoiler-summary:hover {
+  background-color: var(--color-background-overlay, #363636);
+}
+
+.mc-spoiler-title-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mc-spoiler-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.mc-spoiler-title {
+  line-height: 1.4;
+}
+
+/* Chevron Indicator */
+.mc-spoiler-chevron {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary, #737373);
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+  flex-shrink: 0;
+}
+
+html[data-theme="dark"] .mc-spoiler-chevron {
+  color: var(--color-text-secondary, #8b8b8b);
+}
+
+.mc-spoiler[open] .mc-spoiler-chevron {
+  transform: rotate(90deg);
+}
+
+/* Collapsible Content Area */
+.mc-spoiler-content {
+  padding: 1rem 1.15rem;
+  border-top: 1px solid var(--color-border, #e5e5e5);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--color-text, #171717);
+  background-color: var(--color-background-card, #ffffff);
+}
+
+html[data-theme="dark"] .mc-spoiler-content {
+  border-top-color: var(--color-border, #404040);
+  color: var(--color-text, #ededed);
+  background-color: var(--color-background-card, #262626);
+}
+
+/* Keep internal markdown elements tidy inside spoiler */
+.mc-spoiler-content > :first-child {
+  margin-top: 0;
+}
+
+.mc-spoiler-content > :last-child {
+  margin-bottom: 0;
+}
+
+.mc-spoiler-content pre {
+  margin: 0.75rem 0;
+}
